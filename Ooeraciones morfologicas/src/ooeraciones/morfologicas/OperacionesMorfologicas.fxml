@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="731.0" prefWidth="813.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ooeraciones.morfologicas.OperacionesMorfologicasController">
+   <children>
+      <ImageView fx:id="uno" fitHeight="287.0" fitWidth="364.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="dos" fitHeight="287.0" fitWidth="364.0" layoutX="387.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="tres" fitHeight="306.0" fitWidth="455.0" layoutX="24.0" layoutY="297.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="respuesta" layoutX="553.0" layoutY="391.0" prefHeight="31.0" prefWidth="113.0" text="Puntos" />
+      <Label fx:id="Rtitle" layoutX="540.0" layoutY="350.0" prefHeight="31.0" prefWidth="113.0" text="Puntos" />
+      <Label fx:id="title" layoutX="603.0" layoutY="350.0" prefHeight="31.0" prefWidth="113.0" text="Cant.P.Similitud" />
+      <Label fx:id="unodos" layoutX="603.0" layoutY="391.0" prefHeight="31.0" prefWidth="113.0" text="Label" />
+      <Label fx:id="rayas" layoutX="603.0" layoutY="591.0" prefHeight="31.0" prefWidth="113.0" text="Conexiones" />
+      <Label fx:id="conect" layoutX="603.0" layoutY="621.0" prefHeight="31.0" prefWidth="113.0" text="" />
+      <Button layoutX="577.0" layoutY="461.0" mnemonicParsing="false" text="Exit" />
+   </children>
+</AnchorPane>
